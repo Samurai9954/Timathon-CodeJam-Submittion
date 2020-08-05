@@ -14,7 +14,7 @@ It uses two neural networks based on the Microsoft Common Objects in Context (MS
 The models have been trained on cutting edge specifications including an AMD Threadripper pro, 128GB RAM, and trained on a three Titan RTX graphics cards running in SLI (Yes, We have those) for enhancing these images up to 30K Resolution. 
                
 # But, How to use it for me?
-#### Requirements :-
+### Requirements :-
 ##### 1) Ubuntu or Windows 10 (64bit Only)
 ##### 2) Python 3.6, git, installed and in the Enviorment Paths
 ##### 3) Run the command "pip install -r requirements.txt" **(BEFORE RUNNNING THE FILES)**
