@@ -1,4 +1,4 @@
-# Timathon-CodeJam-Submission
+# Timathon Submittion (Koro Sensei and I'm Batman)
 This is the GitHub repository for Timathon Competition by "Koro Sensei" and "I'm Batman"
        
           
