@@ -1,5 +1,5 @@
-# Timathon Submittion (Koro Sensei and SqUiDwArDrOXXX)
-This is the GitHub repository for Timathon Competition by Koro Sensei and SqUiDwArDrOXXX
+# Timathon Submittion (Koro Sensei and SquidwardSucks)
+This is the GitHub repository for Timathon Competition by Koro Sensei and SquidwardSucks
        
           
 Following the Theme of the competition 'Generate', this program generates image captions with the help of a user-friendly Flask GUI.
