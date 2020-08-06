@@ -15,16 +15,26 @@ The models have been trained on cutting edge specifications including an AMD Thr
                
 # But, How to use it for me?
 ### Requirements :-
-##### 1) Ubuntu 20.04 or 18.04 (Windows 10 and WSL Support Will Be Added in Version - 0.2)          
-**NOTE : Windows Subsystem For Linux (WSL) is currently not supported.**
-##### 2) Python 3.6, git, installed and in the Enviorment Paths
+##### 1) Ubuntu 20.04, 18.04 and WSL (Ubuntu Distro Only)
+##### 2) Python 3.6 , git, pip, installed and in the Enviorment Paths
 ##### 3) Run the command "pip install -r requirements.txt" **(BEFORE RUNNNING THE FILES)**
-##### 4) You don't need beastly specs to run this cause the models have been Pre-Trained 😁               
+##### 4) Minimum Requirements :-
+###### CPU :- Intel i3-7100U or Better
+###### RAM :- 2GB RAM
+###### GPU :- Intel HD Graphics
+##### 5) Recommended Requirements :-
+###### CPU :- AMD Ryzen 5-1600AF or Better
+###### RAM :- 4 or 8 GB RAM
+###### GPU :- Nvidia GT 1030 Or Better 
+                            
+                             
+##### If using WSL (Only Ubuntu Distro is compatible) Follow These Steps :-
+#### Remember To install Python 3.6 and install pip. Also install git.
+**NOTE: DOWNLOAD AND INSTALL PYTHON 3.6.9/3.6.8 ONLY. PYTHON 2.7 IS NOT COMPATIBLE AND IS DEPRECATED BY THE PYTHON ORGANIZATION.**
              
-             
-After you match your PC with the requirements, you can just use this tool with a single click. Just run "Run.sh" and **BOOM!**     
+After you match your PC with the requirements, you can just use this tool with a single click. Just open the folders according to your platform - Ubuntu or WSL and run "run.sh" and **BOOM!**     
                         
-That's It!! The program will automatically open a Web GUI in your default web browser eg:- Google Chrome, Microsoft Edge, Opera etc. (Yes, I still use it)         
+That's It!! The program will automatically open a Web GUI in your default web browser eg:- Google Chrome, Microsoft Edge, Opera, Internet Explorer etc. (Yes, This program is still compatible with Internet Explorer, Shocking Isn't it? 🙃)         
 
 ### But Why Am I Getting Two Predictions?
 This is to ensure you that you WILL get the best and most accurate results. There are two neural networks in this process. A CNN (Convolutional Neural Network) and an RNN-LSTM (Long Short Term Memory Neural Network). As sometimes, one neural network may fail to give optimal results (Which is unlikely to happen but two is always better than one!), the other neural network gives the accurate result! CNN is the best at giving accurate results but will not give additional details. The LSTM on the other hand will sometimes be wrong (12% Failure Rate) but will give the details left out by CNN about the photo's caption.
@@ -40,5 +50,4 @@ We got it covered up for you! The Flask GUI has a dropdown containing languages 
 If you don't get the experience you expected, You can join our Discord Server @linkBLABLA
 Suggestions and feedbacks are always welcome. If you are a developer (Oh, you too?), then you can also help our Devs improve the performance of this tool.
 
-**NOTE: THIS PROGRAM WILL NOT RUN ON WSl (WINDOWS SUBSYSTEM FOR LINUX).**
 If facing any issues you can contact us on our Discord - https://www.discord.com/THISISOURHELPSERVERBLABLABLA
