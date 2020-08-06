@@ -15,13 +15,14 @@ The models have been trained on cutting edge specifications including an AMD Thr
                
 # But, How to use it for me?
 ### Requirements :-
-##### 1) Ubuntu or Windows 10 (64bit Only)
+##### 1) Ubuntu 20.04 or 18.04 (Windows 10 and WSL Support Will Be Added in Version - 0.2)          
+**NOTE : Windows Subsystem For Linux (WSL) is currently not supported.**
 ##### 2) Python 3.6, git, installed and in the Enviorment Paths
 ##### 3) Run the command "pip install -r requirements.txt" **(BEFORE RUNNNING THE FILES)**
 ##### 4) You don't need beastly specs to run this cause the models have been Pre-Trained 😁               
              
              
-After you match your PC with the requirements, you can just use this tool with a single click. You can find the respective folders according to your OS named "Ubuntu" and "Windows 10". Run "run.sh" for Ubuntu or run "run.bat" if you are on Windows 10.        
+After you match your PC with the requirements, you can just use this tool with a single click. Just run "Run.sh" and **BOOM!**     
                         
 That's It!! The program will automatically open a Web GUI in your default web browser eg:- Google Chrome, Microsoft Edge, Opera etc. (Yes, I still use it)         
 
